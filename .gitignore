@@ -1,0 +1,9 @@
+# Virtual environment
+venv/
+
+# Ignorar arquivos de cache do Python
+__pycache__/
+*.pyc
+
+# Ignorar arquivos específicos do macOS
+.DS_Store

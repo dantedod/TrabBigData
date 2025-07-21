@@ -1,0 +1,5 @@
+requests
+pandas
+kafka-python
+pymongo[srv]
+pyspark

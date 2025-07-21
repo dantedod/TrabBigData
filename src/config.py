@@ -1,4 +1,4 @@
-# config.py
+# src/config.py
 
 # --- Configurações do Kafka ---
 KAFKA_SERVER = "localhost:9092"
