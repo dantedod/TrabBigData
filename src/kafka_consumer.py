@@ -2,14 +2,14 @@
 import json
 from kafka import KafkaConsumer
 from pymongo import MongoClient
-from src.config import ( 
+from config import ( 
     KAFKA_SERVER,
     KAFKA_TOPIC,
     MONGO_CONNECTION_STRING,
     MONGO_DATABASE,
     MONGO_COLLECTION_MAIN,
 )
-from src.utils.logger import setup_logger
+from utils.logger import setup_logger
 
 logger = setup_logger('KafkaConsumer')
 
