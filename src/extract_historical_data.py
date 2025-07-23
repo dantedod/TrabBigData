@@ -3,7 +3,7 @@ import pandas as pd
 import requests
 import os
 import time 
-from src.utils.logger import setup_logger
+from utils.logger import setup_logger
 
 logger = setup_logger('HistoricalDataExtractor')
 

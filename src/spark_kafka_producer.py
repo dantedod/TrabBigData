@@ -4,9 +4,9 @@ from pyspark.sql import SparkSession
 from pyspark.sql.functions import col, max as spark_max, to_date
 from pyspark.sql.types import IntegerType, DateType
 from kafka import KafkaProducer
-from src.config import KAFKA_SERVER, KAFKA_TOPIC
+from config import KAFKA_SERVER, KAFKA_TOPIC
 import os
-from src.utils.logger import setup_logger
+from utils.logger import setup_logger
 
 logger = setup_logger('SparkKafkaProducer')
 

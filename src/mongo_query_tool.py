@@ -1,13 +1,13 @@
 # src/mongo_query_tool.py
 from pymongo import MongoClient
-from src.config import ( 
+from config import ( 
     MONGO_CONNECTION_STRING,
     MONGO_DATABASE,
     MONGO_COLLECTION_MAIN,
     MONGO_COLLECTION_QUERIES,
 )
 from datetime import datetime, timezone 
-from src.utils.logger import setup_logger
+from utils.logger import setup_logger
 
 logger = setup_logger('MongoQueryTool')
 
