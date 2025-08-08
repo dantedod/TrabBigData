@@ -90,10 +90,6 @@ Isso irá iniciar os serviços do Zookeeper e do Kafka.
 - O utilitário de logging (`src/utils/logger.py`) padroniza logs em todos os scripts.
 - As configurações de conexão (Kafka, MongoDB) estão centralizadas em `src/config.py`.
 
-## Contato
-
-Dúvidas ou sugestões? Abra uma issue ou entre em contato com os autores do projeto.
-
 ## Instalação de Dependências
 
 Para instalar todas as dependências necessárias, execute:
@@ -109,3 +105,4 @@ O arquivo `requirements.txt` inclui:
 - kafka-python
 - pymongo[srv]
 - pyspark
+
